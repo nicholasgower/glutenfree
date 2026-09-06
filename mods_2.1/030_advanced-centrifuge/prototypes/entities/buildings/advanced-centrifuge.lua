@@ -9,7 +9,7 @@ if mods["space-exploration"] then
   light_tint = {r = 1.0, g = 1.0, b = 1.0}
 end
 
-local pipe_picture = require("__base__.prototypes.entity.assembler-pictures").assembler3pipepictures
+local pipe_picture = table.deepcopy(require("__base__.prototypes.entity.assembler-pictures").assembler3pipepictures)
 pipe_picture.south = {
   filename = "__advanced-centrifuge__/graphics/advanced-centrifuge/advanced-centrifuge-pipe-S.png",
   width = 88,
