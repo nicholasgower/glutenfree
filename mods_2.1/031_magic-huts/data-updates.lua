@@ -1,3 +1,4 @@
+package.loaded["__magic-huts__/shared.lua"] = nil
 require("shared")
 
 local entity_names = {}
